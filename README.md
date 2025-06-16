@@ -56,8 +56,8 @@ function Upload() {
 
 ## 💬 Community
 
-👋 Built with ❤️ by [Muhammad Jazib](https://github.com/itxmuhammadjazib)  
-📬 Suggestions or issues? [Open an issue](https://github.com/yourrepo/react-fast-uploader/issues)
+👋 Built with ❤️ by [Muhammad Jazib](https://github.com/mdjazib)  
+📬 Suggestions or issues? [Open an issue](https://github.com/mdjazib/react-fast-uploader/issues)
 
 ---
 
