@@ -30,29 +30,15 @@ npm install react-fast-uploader
 
 ## ⚙️ Usage
 
+
 ```jsx
 import { useFastUploader } from "react-fast-uploader";
 
 function Upload() {
   const { handleChange, files, progress } = useFastUploader();
-
   return (
     <>
       <input type="file" multiple onChange={handleChange} />
-
-      {progress.map((p, i) => (
-        <div key={i}>
-          {p.name} — {p.percent}%
-        </div>
-      ))}
-
-      <ul>
-        {files.map(file => (
-          <li key={file.id}>
-            ✅ {file.name} — <a href={file.url}>Download</a>
-          </li>
-        ))}
-      </ul>
     </>
   );
 }
