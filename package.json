@@ -1,0 +1,11 @@
+{
+  "name": "react-fast-uploader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Jazib",
+  "license": "ISC",
+  "description": "Upload files in React instantly — with just one line. No backend code. No config. Just speed, progress, and unlimited file size — using your own free PHP server."
+}
