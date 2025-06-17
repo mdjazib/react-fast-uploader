@@ -4,11 +4,17 @@
 
 ![npm version](https://img.shields.io/npm/v/react-fast-uploader.svg)
 ![downloads](https://img.shields.io/npm/dw/react-fast-uploader)
-![license](https://img.shields.io/npm/l/react-fast-uploader)
+![license](https://img.shields.io/npm/l/react-fast-uploader?color=blue)
 
 [![Instagram](https://img.shields.io/badge/Instagram-@itxmuhammadjazib-E4405F?style=flat&logo=instagram)](https://instagram.com/itxmuhammadjazib)
 [![GitHub](https://img.shields.io/badge/GitHub-@mdjazib-181717?style=flat&logo=github)](https://github.com/mdjazib)
 
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
 </div>
 
 > A lightning-fast file uploader for React applications. Built with ❤️ by [Muhammad Jazib](https://github.com/mdjazib) at [VWeb Australia](https://vweb.com.au)
@@ -26,8 +32,6 @@
 
 ```bash
 npm install react-fast-uploader
-# or
-yarn add react-fast-uploader
 ```
 
 ## 💡 Super Simple Usage
@@ -116,10 +120,11 @@ function FileUploader() {
 
 ## 📄 License
 
-MIT © [Muhammad Jazib](https://github.com/mdjazib)
+ISC © [Muhammad Jazib](https://github.com/mdjazib)
 
 ---
 
 <div align="center">
-Made with ❤️ in Australia
+  <img src="https://img.shields.io/badge/Made%20with-❤️-red" alt="Made with love" />
+  <img src="https://img.shields.io/badge/🇦🇺%20Australia-000000?style=flat&logo=google&logoColor=white" alt="Australia" />
 </div>
