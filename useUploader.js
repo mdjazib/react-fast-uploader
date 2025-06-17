@@ -15,7 +15,7 @@ export function useUploader() {
         let totalSize = Array.from(files).reduce((a, b) => a + b.size, 0);
         let totalUploaded = 0;
         const tempFiles = [];
-        const limit = 5368709120;
+        const limit = 524288000;
 
         const uploadFile = async (file) => {
             const totalChunks = Math.ceil(file.size / chunkSize);
@@ -54,7 +54,7 @@ export function useUploader() {
             setFinalFiles(tempFiles);
             setUploading(false);
         } else {
-            setError({ error: true, msg: "Upload failed: The maximum allowed total upload size is 5 GB." });
+            setError({ error: true, msg: "Upload failed: The maximum allowed total upload size is 500 MB." });
         }
 
     };

@@ -25,5 +25,9 @@
     "javascript-uploader",
     "file-upload-react",
     "file-upload-progress"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdjazib/react-fast-uploader"
+  }
 }

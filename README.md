@@ -22,7 +22,7 @@
 - 📊 **Real-time Progress** – Track upload status instantly
 - 🔄 **Multiple Files** – Upload many files at once
 - ⚡ **Simple Integration** – Just one hook, that’s it!
-- 🛡️ **Smart Validation** – 5GB size limit protection
+- 🛡️ **Smart Validation** – 500MB size limit protection
 - 📱 **Mobile Ready** – Works everywhere
 
 ---
@@ -117,7 +117,7 @@ function FileUploader() {
 - **Chunked Uploads**: Files are split into 5MB chunks for smooth uploading
 - **Progress Tracking**: Real-time progress for both single and multiple files
 - **Error Handling**: Smart error detection and user-friendly messages
-- **Size Validation**: Prevents uploads over 5GB total size
+- **Size Validation**: Prevents uploads over 500MB total size
 
 ---
 
