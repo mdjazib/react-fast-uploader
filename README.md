@@ -1,7 +1,5 @@
 # ⚡ React Fast Uploader
 
-<div align="center">
-
 ![npm version](https://img.shields.io/npm/v/react-fast-uploader.svg)
 ![downloads](https://img.shields.io/npm/dw/react-fast-uploader)
 ![license](https://img.shields.io/npm/l/react-fast-uploader?color=blue)
@@ -9,31 +7,33 @@
 [![Instagram](https://img.shields.io/badge/Instagram-@itxmuhammadjazib-E4405F?style=flat&logo=instagram)](https://instagram.com/itxmuhammadjazib)
 [![GitHub](https://img.shields.io/badge/GitHub-@mdjazib-181717?style=flat&logo=github)](https://github.com/mdjazib)
 
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-</div>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 > A lightning-fast file uploader for React applications. Built with ❤️ by [Muhammad Jazib](https://github.com/mdjazib) at [VWeb Australia](https://vweb.com.au)
 
+---
+
 ## ✨ Features
 
-- 🚀 **Lightning Fast** - Chunked uploads (5MB chunks)
-- 📊 **Real-time Progress** - Track upload status instantly
-- 🔄 **Multiple Files** - Upload many files at once
-- ⚡ **Simple Integration** - Just one hook, that's it!
-- 🛡️ **Smart Validation** - 5GB size limit protection
-- 📱 **Mobile Ready** - Works everywhere
+- 🚀 **Lightning Fast** – Chunked uploads (5MB chunks)
+- 📊 **Real-time Progress** – Track upload status instantly
+- 🔄 **Multiple Files** – Upload many files at once
+- ⚡ **Simple Integration** – Just one hook, that’s it!
+- 🛡️ **Smart Validation** – 5GB size limit protection
+- 📱 **Mobile Ready** – Works everywhere
+
+---
 
 ## 🚀 Quick Start
 
 ```bash
 npm install react-fast-uploader
 ```
+
+---
 
 ## 💡 Super Simple Usage
 
@@ -52,19 +52,23 @@ function App() {
 }
 ```
 
+---
+
 ## 🎯 What You Get
 
 ```jsx
 const { info, upload } = useUploader();
 
 // info = {
-//   progress: "75٪",        // Upload progress
-//   files: [...],          // Uploaded file URLs
-//   uploading: true/false, // Upload status
-//   error: {...},          // Error details if any
-//   uploaded: true/false   // Upload complete?
+//   progress: "75%",         // Upload progress
+//   files: [...],            // Uploaded file URLs
+//   uploading: true/false,   // Upload status
+//   error: {...},            // Error details if any
+//   uploaded: true/false     // Upload complete?
 // }
 ```
+
+---
 
 ## 🌟 Real World Example
 
@@ -77,20 +81,20 @@ function FileUploader() {
   return (
     <div className="uploader">
       <input type="file" multiple onChange={upload} />
-      
+
       {info.uploading && (
         <div className="progress">
           <p>Uploading... {info.progress}</p>
           <progress value={parseFloat(info.progress)} max="100" />
         </div>
       )}
-      
-      {info.error.error && (
+
+      {info.error?.error && (
         <div className="error">
           {info.error.msg}
         </div>
       )}
-      
+
       {info.uploaded && (
         <div className="success">
           <h3>✨ Upload Complete!</h3>
@@ -106,6 +110,8 @@ function FileUploader() {
 }
 ```
 
+---
+
 ## 🛠️ Under the Hood
 
 - **Chunked Uploads**: Files are split into 5MB chunks for smooth uploading
@@ -113,11 +119,15 @@ function FileUploader() {
 - **Error Handling**: Smart error detection and user-friendly messages
 - **Size Validation**: Prevents uploads over 5GB total size
 
+---
+
 ## 🤝 Support & Community
 
 - 💬 **Questions?** [Open an issue](https://github.com/mdjazib/react-fast-uploader/issues)
 - 📸 **Follow me** on [Instagram](https://instagram.com/itxmuhammadjazib)
 - 🌐 **Visit** [VWeb Australia](https://vweb.com.au)
+
+---
 
 ## 📄 License
 
@@ -125,7 +135,4 @@ ISC © [Muhammad Jazib](https://github.com/mdjazib)
 
 ---
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Made%20with-❤️-red" alt="Made with love" />
-  <img src="https://img.shields.io/badge/🇦🇺%20Australia-000000?style=flat&logo=google&logoColor=white" alt="Australia" />
-</div>
+**🇦🇺 Made with ❤️ in Australia**
